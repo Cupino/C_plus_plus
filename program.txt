@@ -1,0 +1,42 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(void) 
+{
+	cout << "Zadajte svoj vek:"  << endl;
+	string a;
+	cin >> a;
+	cout << "Mas " << a << " rokov" << endl;
+
+
+	return 0;
+} 
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(void) 
+{
+	cout << "Zadajte cislo:" << endl;
+	int a;
+	cin >> a;
+	cout << "Druha mocnina je: " << (a*a) << endl;
+
+	return 0;
+} 
+
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(void) 
+{
+	cout << "Zadajte polomer:" << endl;
+	float a;
+	cin >> a;
+	cout << "Obvod kruhu je: " << (2 * 3.1415 * a) << " cm a jeho obsah je " << (3.1415 * a * a) << " cm2" << endl;
+
+	return 0;
+}
